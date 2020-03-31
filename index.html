@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Frontend Effects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .wapper {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 34px;
+            margin: 40px 0 30px;
+            text-align: center;
+            color: hsl(0, 0%, 40%)
+        }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        ul li {
+            background-color: #fff;
+            box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            width: 100%;
+            max-width: 350px;
+            list-style: none;
+            transition: all .3s;
+        }
+        ul li:hover {
+            background: hsl(223, 87%, 63%);
+        }
+        ul li:hover a{
+            color: #fff;
+        }
+        ul li a {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 16px;
+            color: hsl(223, 87%, 63%);;
+            padding: 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="wapper">
+            <h1>Frontend Effects</h1>
+            <ul>
+                <li>
+                    <a href="parallaxImage/index.html">1. Parrallax Image</a>
+                </li>
+                <li>
+                    <a href="menuSidebar/index.html">2. Menu Sidebar</a>
+                </li>
+                <li>
+                    <a href="sliderScrollBar/index.html">3. Slider Scroll Bar</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
