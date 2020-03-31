@@ -6,13 +6,11 @@
 
 .itemSlide {
     height: 100vh;
-    background-position: center;
-    background-size: cover;
+    background: hsl(223, 87%, 63%);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    position: relative;
 }
 
 .menuSlider {
@@ -107,6 +105,8 @@
 .main-menu .menu .menu-inner nav a {
     font-size: 16px;
     color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     text-decoration: none;
 }
 

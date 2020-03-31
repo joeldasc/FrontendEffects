@@ -6,7 +6,6 @@
 
 .itemSlide {
     height: 100vh;
-    /*height: calc(var(--vh, 1vh) * 100);*/
     background-position: center;
     background-size: cover;
     display: flex;
@@ -18,7 +17,7 @@
 
 .caption {
     width: 100%;
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
 }
 
@@ -31,9 +30,26 @@
 .caption h2 {
     margin-bottom: 20px;
     font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .caption p {
     font-size: 18px;
-    line-height: 22px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.full-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
 }
